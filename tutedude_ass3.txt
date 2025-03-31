@@ -1,0 +1,17 @@
+TASK-1:
+def factorial(num):
+    if num==1 or num==0:
+        return 1
+    else:
+        return  num*factorial(num-1)
+num=int(input("Enter a number: "))
+a=factorial(num)
+print("Factorial of",num,"is:",a)
+
+
+TASK-2:
+import math
+a=int(input("Enter a number: "))
+print("square root:",math.sqrt(a))
+print("Logarithm:",math.log(a))
+print("Sine:",math.sin(a))
