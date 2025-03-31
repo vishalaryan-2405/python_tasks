@@ -1,0 +1,23 @@
+TASK-1
+
+d = {'vishal': 90, 'aryan': 80, 'mukhesh': 75}
+
+name = input('Enter the student\'s name: ')
+
+if name in d:
+    print(name, 'marks:', d[name])  
+else:
+    print('Student not found')
+
+
+
+
+TASK-2
+
+list1=[1,2,3,4,5,6,7,8,9,10]
+list2=list1[:5]
+list3=list2[::-1]
+print('Original List:',list1)
+print('Extracted first five elements:',list2)
+print('reversed extracted five elements:',list3)
+
